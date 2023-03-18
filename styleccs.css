@@ -1,0 +1,75 @@
+
+.flexcontainer{
+   
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexcontainer > div{
+  
+    width: 30%;
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+
+}
+.flexcontainer >.one{
+    background-color: #c9c9c9;
+}
+.flexcontainer >.two{
+    background-color: #ffffff;
+}
+.flexcontainer >.three{
+    background-color: #4473c5;
+}
+.flexcontainer >.five{
+    background-color: #8596b0;
+}
+.flexcontainer >.seven{
+    background-color: #8EAADA;
+}
+.flexcontainer >.nine{
+    background-color: #F7CAAB;
+}
+.first{
+    height:150px;
+}
+.second{
+    height:180px;
+}
+.third{
+    height:250px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    height: 100%;
+   
+
+    
+}
+.one:hover{
+    background-color: yellow;
+}
+.three:hover{
+    background-color: red;
+}
+.five:hover{
+    background-color: orange;
+}
+.seven:hover{
+    background-color:green;
+}
+.nine:hover{
+    background-color: purple;
+}
+.cla{
+    padding-top: 15%;
+}
+.bla{
+    padding-top: 20%;
+}
+.ala{
+    padding-top: 25%;
+}
